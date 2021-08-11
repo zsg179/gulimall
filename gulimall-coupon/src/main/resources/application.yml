@@ -4,6 +4,8 @@ spring:
     password: root
     url: jdbc:mysql://8.135.40.127:3306/gulimall_sms?useUnicode=true&characterEncoding=utf8
     driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      max-lifetime: 1200000
   application:
     name: gulimall-coupon
   cloud:
